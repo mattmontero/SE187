@@ -1,0 +1,17 @@
+import java.util.Stack;
+
+
+public class TowerOfHanoi {
+	
+	Stack<Integer> tower1;
+	Stack<Integer> tower2;
+	Stack<Integer> tower3;
+	
+	
+	TowerOfHanoi(int heightOfTower){
+		for(int i = heightOfTower; i > 0; i--){
+			tower1.add(i);
+		}
+		System.out.println(tower1);
+	}
+}
