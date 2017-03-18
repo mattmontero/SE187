@@ -18,6 +18,11 @@ public class TowerOfHanoi {
 		for(int i = heightOfTower; i > 0; i--){
 			tower1.add(i);
 		}
+		System.out.println("Starting towers");
+		System.out.println(tower1);
+		System.out.println(tower2);
+		System.out.println(tower3);
+		System.out.println("***********************");
 	}
 	
 	public void solve(){
